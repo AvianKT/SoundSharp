@@ -60,9 +60,9 @@ namespace SoundSharp
 
             themes.AddItem(new MenuItem("s11", "Keys are required to be rebinded before playing a sound"));
 
-            Config.AddItem(new MenuItem("sad", "Player Death Sound").SetValue(true));
+            Config.AddItem(new MenuItem("sad", "Player Death Sound [BROKEN]").SetValue(false));
             Config.AddItem(new MenuItem("Levelup", "Level Up Sound ~ DING").SetValue(true));
-            Config.AddItem(new MenuItem("kill", "On Kill Sound").SetValue(false));
+            Config.AddItem(new MenuItem("kill", "On Kill Sound [BROKEN]").SetValue(false));
             Config.AddItem(new MenuItem("gold", "On 2k Gold + Sound").SetValue(true));
             Config.AddItem(new MenuItem("endgame", "GameEnd Sound").SetValue(true));
             Config.AddItem(new MenuItem("shopzone", "Shopzone Sound Effect").SetValue(true));
